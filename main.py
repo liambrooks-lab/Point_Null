@@ -32,7 +32,7 @@ async def main():
     pygame.init()
 
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-    pygame.display.set_caption("Root Access")
+    pygame.display.set_caption("Point_Null")
     clock = pygame.time.Clock()
 
     player = Player(80, SCREEN_HEIGHT // 2)

@@ -1,4 +1,4 @@
-name: Deploy Pygbag Game
+name: Deploy Point_Null Game
 
 on:
   push:
@@ -32,7 +32,7 @@ jobs:
         run: python -m pip install pygbag
 
       - name: Build Web Game
-        run: python -m pygbag --build .
+        run: python -m pygbag --build --title Point_Null --icon favicon.png --package web.pygame.Point_Null .
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

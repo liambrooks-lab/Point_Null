@@ -1,24 +1,18 @@
-<p align="center">
-  <img src="assets/logo_root_access.png" alt="Root_Access logo" width="280" />
+﻿<p align="center">
+  <img src="assets/logo_point_null.png" alt="Point_Null logo" width="280" />
 </p>
 
-<h1 align="center">Root_Access</h1>
+<h1 align="center">Point_Null</h1>
 
 <p align="center">
   A top-down 2D browser game about reclaiming corrupted space by building safe-zone hardware nodes.
-</p>
-
-<p align="center">
-  <a href="https://github.com/">Live Game</a>
-  |
-  <a href="https://github.com/">Repository</a>
 </p>
 
 ---
 
 ## Overview
 
-Root_Access is a 2D top-down action-survival game built with Python, Pygame, and Pygbag. The player moves through a dark corrupted environment, destroys incoming enemies, collects scrap, and spends that scrap to build safe-zone nodes.
+Point_Null is a 2D top-down action-survival game built with Python, Pygame, and Pygbag. The player moves through a dark corrupted environment, destroys incoming enemies, collects scrap, and spends that scrap to build safe-zone nodes.
 
 The project is designed to run fully static in the browser through GitHub Pages:
 
@@ -30,11 +24,11 @@ The project is designed to run fully static in the browser through GitHub Pages:
 
 ---
 
-## What Is Root_Access?
+## What Is Point_Null?
 
-Root_Access is a browser-playable Pygame game where the player expands protected territory inside a hostile digital environment.
+Point_Null is a browser-playable Pygame game where the player expands protected territory inside a hostile digital environment.
 
-At the gameplay level, Root_Access acts as:
+At the gameplay level, Point_Null acts as:
 
 - a top-down movement shooter
 - a safe-zone expansion game
@@ -45,7 +39,7 @@ At the gameplay level, Root_Access acts as:
 
 ## Problem It Solves
 
-Many beginner Pygame projects stay locked to desktop-only execution and become difficult to share. Root_Access is structured around a different goal: make a Python game that can be hosted publicly as a static browser game.
+Many beginner Pygame projects stay locked to desktop-only execution and become difficult to share. Point_Null is structured around a different goal: make a Python game that can be hosted publicly as a static browser game.
 
 The project focuses on:
 
@@ -59,14 +53,15 @@ The project focuses on:
 
 ## Links
 
-- **Live Game**: Update this after GitHub Pages is enabled
-- **GitHub Repository**: Update this after pushing the repo
+- Live Game: <a href="https://liambrooks-lab.github.io/Point_Null/">Click to play</a>
+- GitHub Repository: <a href="https://github.com/liambrooks-lab/Point_Null.git>"View GitHub Repository</a>
+
 
 ---
 
 ## Latest Game State
 
-Root_Access currently ships with:
+Point_Null currently ships with:
 
 - 8-way WASD player movement
 - mouse-click shooting
@@ -121,9 +116,9 @@ Root_Access currently ships with:
 
 ---
 
-## Why Root_Access
+## Why Point_Null
 
-Root_Access is built around a simple game promise:
+Point_Null is built around a simple game promise:
 
 - enter a corrupted zone
 - survive enemy pressure
@@ -161,12 +156,12 @@ That loop drives the current code structure, gameplay systems, and deployment pl
 ## Project Structure
 
 ```text
-Root_Access/
+Point_Null/
 |- .github/
 |  `- workflows/
 |     `- deploy.yml
 |- assets/
-|  `- logo_root_access.png
+|  `- logo_point_null.png
 |- entities/
 |  |- bullet.py
 |  |- enemy.py
@@ -243,7 +238,7 @@ The latest verified project state includes:
 
 ## Current Scope
 
-Root_Access is currently a strong early prototype with:
+Point_Null is currently a strong early prototype with:
 
 - movement
 - combat
@@ -309,7 +304,7 @@ py -m pygbag --build .
 
 ## Deployment
 
-Root_Access is prepared for GitHub Pages deployment through GitHub Actions.
+Point_Null is prepared for GitHub Pages deployment through GitHub Actions.
 
 ### GitHub Pages setup
 
@@ -324,7 +319,7 @@ The workflow builds the game with Pygbag and deploys `build/web`.
 
 ---
 
-## 📄License
+## ðŸ“„License
 
 This project is licensed under the [MIT License](LICENSE).
 
@@ -343,7 +338,7 @@ That means you can use, copy, modify, merge, publish, distribute, and build on t
 </p>
 
 <p align="center">
-|  <strong>Founder @Voxion Labs</strong>
+  <strong>Founder @Voxion Labs</strong>
 </p>
 
 <p align="center">
@@ -359,3 +354,4 @@ That means you can use, copy, modify, merge, publish, distribute, and build on t
 </p>
 
 ---
+
