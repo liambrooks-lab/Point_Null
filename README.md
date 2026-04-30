@@ -54,7 +54,7 @@ The project focuses on:
 ## Links
 
 - Live Game: <a href="https://liambrooks-lab.github.io/Point_Null/">Click to play</a>
-- GitHub Repository: <a href="https://github.com/liambrooks-lab/Point_Null.git>"View GitHub Repository</a>
+- GitHub Repository: <a href="https://github.com/liambrooks-lab/Point_Null.git">View GitHub Repository</a>
 
 
 ---
@@ -319,7 +319,7 @@ The workflow builds the game with Pygbag and deploys `build/web`.
 
 ---
 
-## ðŸ“„License
+## 📄License
 
 This project is licensed under the [MIT License](LICENSE).
 
