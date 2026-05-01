@@ -35,4 +35,4 @@ class Enemy:
         )
 
     def draw(self, screen):
-        pygame.draw.rect(screen, ENEMY_COLOR, self.rect)
+        pygame.draw.circle(screen, ENEMY_COLOR, self.rect.center, self.size // 2)

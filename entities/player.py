@@ -1,6 +1,14 @@
 import pygame
 
-from settings import PLAYER_COLOR, PLAYER_SIZE, PLAYER_SPEED, SCREEN_HEIGHT, SCREEN_WIDTH
+from settings import (
+    PLAYER_COLOR,
+    PLAYER_GUN_COLOR,
+    PLAYER_SIZE,
+    PLAYER_SKIN_COLOR,
+    PLAYER_SPEED,
+    SCREEN_HEIGHT,
+    SCREEN_WIDTH,
+)
 
 
 class Player:
@@ -42,5 +50,22 @@ class Player:
         self.rect.bottom = min(self.rect.bottom, SCREEN_HEIGHT)
         self.position.update(self.rect.topleft)
 
-    def draw(self, screen):
-        pygame.draw.rect(screen, PLAYER_COLOR, self.rect)
+    def draw(self, screen, mouse_position):
+        center = pygame.Vector2(self.rect.center)
+        aim_direction = pygame.Vector2(mouse_position) - center
+
+        if aim_direction.length_squared() > 0:
+            aim_direction = aim_direction.normalize()
+        else:
+            aim_direction = pygame.Vector2(1, 0)
+
+        body_radius = self.size // 2
+        head_radius = 6
+        gun_start = center + aim_direction * 8
+        gun_end = center + aim_direction * 24
+
+        # Simple top-down person: body, head, and a gun aimed at the cursor.
+        pygame.draw.circle(screen, PLAYER_COLOR, center, body_radius)
+        pygame.draw.circle(screen, PLAYER_SKIN_COLOR, center - aim_direction * 5, head_radius)
+        pygame.draw.line(screen, PLAYER_GUN_COLOR, gun_start, gun_end, 5)
+        pygame.draw.circle(screen, (30, 34, 38), gun_end, 3)

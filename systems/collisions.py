@@ -32,3 +32,15 @@ def handle_enemy_node_collisions(enemies, nodes):
                 break
 
     return hits
+
+
+def handle_enemy_player_collisions(enemies, player):
+    """Remove enemies that hit the player and return how many hits landed."""
+    hits = 0
+
+    for enemy in enemies[:]:
+        if enemy.rect.colliderect(player.rect):
+            enemies.remove(enemy)
+            hits += 1
+
+    return hits
