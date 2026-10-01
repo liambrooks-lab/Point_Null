@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="assets/logo_point_null.png" alt="Point_Null logo" width="280" />
+  <img src="assets/logo_point_null.png" alt="Point_Null logo" width="150" />
 </p>
 
 <h1 align="center">Point_Null</h1>
@@ -24,7 +24,7 @@ The project is designed to run fully static in the browser through GitHub Pages:
 
 ---
 
-## What Is Point_Null?
+## Info and General Guide
 
 Point_Null is a browser-playable Pygame game where the player expands protected territory inside a hostile digital environment.
 
@@ -37,25 +37,9 @@ At the gameplay level, Point_Null acts as:
 
 ---
 
-## Problem It Solves
-
-Many beginner Pygame projects stay locked to desktop-only execution and become difficult to share. Point_Null is structured around a different goal: make a Python game that can be hosted publicly as a static browser game.
-
-The project focuses on:
-
-- simple readable OOP
-- flat, beginner-friendly imports
-- clean game entities and systems
-- browser deployment through Pygbag
-- GitHub Pages publishing
-
----
-
 ## Links
 
 - Live Game: <a href="https://liambrooks-lab.github.io/Point_Null/">Click to play</a>
-- GitHub Repository: <a href="https://github.com/liambrooks-lab/Point_Null.git">View GitHub Repository</a>
-
 
 ---
 
@@ -113,20 +97,6 @@ Point_Null currently ships with:
 - nodes create visible safe-zone circles
 - nodes have health
 - destroyed nodes are removed from the game
-
----
-
-## Why Point_Null
-
-Point_Null is built around a simple game promise:
-
-- enter a corrupted zone
-- survive enemy pressure
-- collect scrap
-- build safe nodes
-- expand control over the map
-
-That loop drives the current code structure, gameplay systems, and deployment plan.
 
 ---
 
@@ -223,19 +193,6 @@ The latest verified project state includes:
 
 ---
 
-## Key Capabilities
-
-- playable browser game prototype
-- clean beginner-friendly Python OOP
-- static hosting target
-- node building and destruction
-- simple combat loop
-- generated logo asset
-- procedural audio safe for Pygbag builds
-- GitHub Pages workflow included
-
----
-
 ## Current Scope
 
 Point_Null is currently a strong early prototype with:
@@ -327,31 +284,13 @@ That means you can use, copy, modify, merge, publish, distribute, and build on t
 
 ---
 
-## Author
-
-<p align="center">
-  <img src="docs/readme/author-rudranarayan-jena.jpg" alt="Rudranarayan Jena" width="180" />
-</p>
-
-<p align="center">
-  <strong>Crafted by MR. Rudranarayan Jena</strong>
-</p>
-
-<p align="center">
-  <strong>Founder @Voxion Labs</strong>
-</p>
-
-<p align="center">
-  Product Builder | Game Developer | Full-stack Developer | AI Enthusiast
-</p>
-
-<p align="center">
-  Focused on building polished developer products, browser games, real-world applications, and modern AI-assisted workflows.
-</p>
-
-<p align="center">
-  <a href="https://github.com/liambrooks-lab">GitHub: @liambrooks-lab</a>
-</p>
+<br>
+<div align="right">
+  <b>Rudranarayan Jena</b><br>
+  <i>Founder @ Voxion Labs</i>
+</div>
 
 ---
-
+<div align="center">
+  (c) 2026 Rudranarayan Jena
+</div>
